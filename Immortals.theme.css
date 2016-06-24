@@ -3043,8 +3043,8 @@ div#bd-pub-button:hover {
 	box-shadow: none !important;
 	transition: all .3s ease-in-out;
 }
-.emote-container {
-	transition: all .3s ease-in-out;
+.emote-container, .emoji-item {
+    transition: background-color .3s ease-in-out, transform .1s ease-in-out;
 }
 .bda-dark .emoji-picker .scroller .emoji-item {
 	border-radius: 5px;
